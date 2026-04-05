@@ -1,0 +1,8 @@
+version: 1
+# Linux: swap Alt and Meta for a more Cmd-like thumb key (tune to taste)
+super_as_command: true
+intents:
+  copy: { mac: "cmd+c", linux: "ctrl+c" }
+  paste: { mac: "cmd+v", linux: "ctrl+v" }
+  undo: { mac: "cmd+z", linux: "ctrl+z" }
+keyd_extra: []

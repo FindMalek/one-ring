@@ -1,0 +1,10 @@
+machine: default
+name: default
+modules:
+  core: true
+  terminal: true
+  keyboard: true
+  ide: true
+  apps: false
+  browser: false
+selected_apps: []

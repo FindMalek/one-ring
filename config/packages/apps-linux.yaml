@@ -1,0 +1,20 @@
+# Cursor is not on Flathub; install from https://cursor.com/download
+- name: Cursor
+  mac: brew install --cask cursor
+  linux: echo "Install Cursor from https://cursor.com/download (deb/AppImage)" && true
+  category: ide
+
+- name: Zen Browser
+  mac: null
+  linux: flatpak install -y flathub app.zen_browser.zen
+  category: browser
+
+- name: Spotify
+  mac: brew install --cask spotify
+  linux: flatpak install -y flathub com.spotify.Client
+  category: apps
+
+- name: Ghostty
+  mac: brew install --cask ghostty
+  linux: echo "Install Ghostty from https://ghostty.org/docs/install" && true
+  category: terminal

@@ -1,0 +1,11 @@
+machine: example-second-machine
+name: example-second-machine
+modules:
+  core: true
+  terminal: true
+  keyboard: true
+  ide: true
+  apps: true
+  browser: false
+selected_apps:
+  - Spotify

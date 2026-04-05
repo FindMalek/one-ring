@@ -1,0 +1,8 @@
+node_modules/
+onering
+onering-bin
+.DS_Store
+*.log
+docs/.vitepress/cache
+docs/.vitepress/dist
+config/keyboard/karabiner.generated.json

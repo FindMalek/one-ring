@@ -1,0 +1,19 @@
+- name: Cursor
+  mac: brew install --cask cursor
+  linux: null
+  category: ide
+
+- name: Ghostty
+  mac: brew install --cask ghostty
+  linux: null
+  category: terminal
+
+- name: Arc
+  mac: brew install --cask arc
+  linux: null
+  category: browser
+
+- name: Spotify
+  mac: brew install --cask spotify
+  linux: flatpak install -y flathub com.spotify.Client
+  category: apps
