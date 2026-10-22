@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, macos-latest]
+        os: [[self-hosted, the-keep], macos-latest]
     steps:
       - uses: actions/checkout@v4
 
@@ -34,7 +34,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - os: ubuntu-latest
+          - os: [self-hosted, the-keep]
             target: bun-linux-x64
             artifact: onering-linux-x64
           - os: macos-latest
